@@ -13,7 +13,7 @@ fi
 cd landing-zone-accelerator-on-aws
 git checkout main
 git pull
-tags=$(git tag)
+tags=$(git tag | sort -V)
 latest_n_releases=$(echo $tags | rev | cut -d ' ' -f 1-$n | rev)
 cd ..
 
