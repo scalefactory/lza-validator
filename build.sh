@@ -30,5 +30,5 @@ for release in $latest_n_releases; do
   git -c advice.detachedHead=false checkout $release
   cd ..
   echo $release
-  #$tooling build --build-arg $release --tag lza-validator:$release .
+  $tooling build --build-arg $release --tag lza-validator:$release .
 done
