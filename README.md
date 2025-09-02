@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> This is a fork from upstream to control changes used for LZA Validator
+
 # LZA-Validator
 
 LZA-Validator is a tool that validates the configurations of [Landing Zone Accelerator on AWS](https://aws.amazon.com/solutions/implementations/landing-zone-accelerator-on-aws/). It is in the format of a docker image which is created from the source code of [landing-zone-accelerator-on-aws repository](https://github.com/awslabs/landing-zone-accelerator-on-aws).
